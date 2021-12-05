@@ -9,6 +9,9 @@ Analysis on calls to 311 to show:
 Zip code chosen: 10025
 
 Group name: group 29
+
 Section: 001
+
 Name and UNI:
+
 Kai He, UNI kh3069
