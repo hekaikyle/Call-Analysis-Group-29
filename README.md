@@ -23,6 +23,12 @@ Abhirat Shinde, UNI aas2357
 ## Project Description
 
 ### Top10.ipynb
+1. Read the data from the csv file
+2. Shortlist data belonging to Zip 10025.0, year 2020
+3. Review columns to choose only the relevant columns, ie. 'Complaint Type' column. 
+4. Group complaints and sort them in descending order based on their frequency of occurance in a series object type
+5. Shortlist the Top 10 such complaints by frequency and assign them to a new object of dataseries type
+6. Test the series object whose index is a string of the 'Complaint Type' column and respective values are frequency of occurance
 
 ### Parking.ipynb
 
