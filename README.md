@@ -1,6 +1,6 @@
 # Call-Analysis-Group-29
 
-Introduction:
+## Introduction:
 
 The project is an Analysis on calls to 311 in New York City to show:
 
@@ -8,18 +8,26 @@ The project is an Analysis on calls to 311 in New York City to show:
 
 2. whether illegal parking incidents are a larger fraction of total 311 incidents in 10025 area than they are in general
 
-Zip code chosen: 10025 , NYC
+## Zip code chosen: 10025 , NYC
 
-Group name: group 29
+## Group name: group 29
 
-Section: 001
+## Section: 001
 
-Name and UNI:
+## Name and UNI
 
 Kai He, UNI kh3069
 
 Abhirat Shinde, UNI aas2357
 
-Project Description:
+## Project Description
 
+### Top10.ipynb
 
+### Parking.ipynb
+
+1. Read data from the csv file
+2. Confirm there're no missing data in 'Unique Key' and 'Complaint Type' column, and confirm that the data only include calls in 2020
+3. Filter the original df to only include illegal parking calls in 2020
+4. Compute number of total incidents and number of illegal parking incidents, in whole NYC and in 10025 area, respectively, by counting the unique keys of each incident
+5. Compute illegal parking fractions, both in general NYC and 10025 area, and compare them
